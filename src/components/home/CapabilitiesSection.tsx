@@ -70,11 +70,11 @@ const CapabilitiesSection = () => {
             <div className="flex gap-4 p-6 rounded-2xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/30 transition-all duration-300 group">
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center group-hover:bg-blue-200 transition-colors">
-                  <capability.icon className="w-6 h-6 text-blue-600" />
+                  <capability.icon className="w-6 h-6 text-[#3674B5]" />
                 </div>
               </div>
               <div className="space-y-2">
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-700 transition-colors">
+                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-[#3674B5] transition-colors">
                   {capability.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
