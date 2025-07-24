@@ -24,7 +24,7 @@ const VehiclePagination = ({ page, maxPage, setPage }: Props) => {
         variant="outline"
         onClick={() => setPage(Math.max(page - 1, 1))}
         disabled={page === 1}
-        className="bg-[#2B3F4D] text-gray-300 hover:bg-[#1B3C53] hover:text-white disabled:opacity-50"
+        className="bg-[#2B3F4D] hover:text-gray-300 hover:bg-[#1B3C53] text-white disabled:opacity-50"
       >
         <ArrowLeft className="w-4 h-4 mr-2" />
         <span className="hidden md:inline">Previous</span>
@@ -43,7 +43,7 @@ const VehiclePagination = ({ page, maxPage, setPage }: Props) => {
               className={
                 isActive
                   ? "bg-[#1B3C53] text-white cursor-default"
-                  : "bg-[#2B3F4D] text-gray-300 hover:bg-[#1B3C53] hover:text-white border border-white/10"
+                  : "bg-[#2B3F4D] hover:text-gray-300 hover:bg-[#1B3C53] text-white border border-white/10"
               }
             >
               {pageNum}
@@ -73,7 +73,7 @@ const VehiclePagination = ({ page, maxPage, setPage }: Props) => {
         variant="outline"
         onClick={() => setPage(Math.min(page + 1, maxPage))}
         disabled={page === maxPage}
-        className="bg-[#2B3F4D] text-gray-300 hover:bg-[#1B3C53] hover:text-white disabled:opacity-50"
+        className="bg-[#2B3F4D] hover:text-gray-300 hover:bg-[#1B3C53] text-white disabled:opacity-50"
       >
         <span className="hidden md:inline">Next</span>
         <ArrowRight className="w-4 h-4 ml-2" />
