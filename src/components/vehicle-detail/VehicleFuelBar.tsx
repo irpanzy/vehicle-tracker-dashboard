@@ -19,22 +19,22 @@ const VehicleFuelBar = ({ level }: Props) => {
 
   const getTextColor = () => {
     if (level > 50) {
-      return "text-[#456882]";
+      return "text-[#1B3C53]";
     }
     if (level > 20) {
-      return "text-[#748DAE]";
+      return "text-[#2F5249]";
     }
-    return "text-[#F44336]";
+    return "text-[#722323]";
   };
 
   const getBarColor = () => {
     if (level > 50) {
-      return "bg-[#456882]";
+      return "bg-[#1B3C53]";
     }
     if (level > 20) {
-      return "bg-yellow-500";
+      return "bg-[#2F5249]";
     }
-    return "bg-red-500";
+    return "bg-[#722323]";
   };
 
   return (
