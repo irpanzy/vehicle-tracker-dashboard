@@ -1,7 +1,6 @@
 # 🚗 Vehicle Tracker Dashboard
 
-A modern, responsive web application for real-time vehicle fleet monitoring and management.
-Built with React 19, powered by Vite 7 for fast development, styled using Tailwind CSS 4.1, and utilizes shadcn/ui for UI components. Animations are handled by Framer Motion, with global state managed via Zustand. All requests are made using Axios, and the project is written entirely in TypeScript 5.8.
+A modern, responsive web application for real-time vehicle fleet monitoring and management. Built with React 19, powered by Vite 7 for fast development, styled using Tailwind CSS 4.1, and utilizes shadcn/ui for UI components. Routing is handled with React Router 7.7.0. Animations are powered by Framer Motion, global state managed via Zustand. All requests are made using Axios, and the project is written entirely in TypeScript 5.8.
 
 ![React](https://img.shields.io/badge/React-19.1-blue?style=for-the-badge&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-7.0-blue?style=for-the-badge&logo=vite)
@@ -9,7 +8,8 @@ Built with React 19, powered by Vite 7 for fast development, styled using Tailwi
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1-blue?style=for-the-badge&logo=tailwindcss)
 ![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-2.9-blue?style=for-the-badge&logo=radixui)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.2-blue?style=for-the-badge&logo=framer)
-![Zustand](https://img.shields.io/badge/🐻_Zustand-%205.0-blue?style=for-the-badge)
+![React Router](https://img.shields.io/badge/React_Router-7.7-blue?style=for-the-badge&logo=react-router&logoColor=white)
+![Zustand](https://img.shields.io/badge/🐻_Zustand-5.0-blue?style=for-the-badge)
 ![Axios](https://img.shields.io/badge/Axios-1.1-blue?style=for-the-badge&logo=axios)
 
 ## ✨ Features

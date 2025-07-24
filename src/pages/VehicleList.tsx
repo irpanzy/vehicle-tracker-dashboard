@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useVehicleStore } from "@/store/vehicleStore";
 import { fetchVehicles } from "@/api/vehicleApi";
 import { Skeleton } from "@/components/ui/skeleton";
-import VehicleCard from "@/components/VehicleCard";
+import VehicleCard from "@/components/vehicle-list/VehicleCard";
 import DashboardLayout from "@/components/layout/DashboardLayout";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -114,9 +114,9 @@ export default function VehicleList() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center"
         >
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-2">
             Vehicle Fleet Dashboard
-          </h1>
+          </h2>
           <p className="text-gray-600">
             Monitor and manage your vehicle fleet in real-time
           </p>
@@ -269,9 +269,9 @@ export default function VehicleList() {
                   className="border-gray-200 text-white hover:text-gray-300 hover:bg-gray-50"
                 >
                   <ArrowLeft className="w-4 h-4 mr-2" />
-                  <span className="hidden sm:inline">Previous</span>
+                  <span className="hidden md:inline">Previous</span>
                 </Button>
-                <div className="hidden sm:flex items-center gap-2">
+                <div className="hidden md:flex items-center gap-2">
                   {Array.from({ length: Math.min(5, maxPage) }, (_, i) => {
                     const pageNum = i + 1;
                     const isActive = page === pageNum;
@@ -315,7 +315,7 @@ export default function VehicleList() {
                   disabled={page === maxPage}
                   className="border-gray-200 text-white hover:text-gray-300 hover:bg-gray-50"
                 >
-                  <span className="hidden sm:inline">Next</span>
+                  <span className="hidden md:inline">Next</span>
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </motion.div>

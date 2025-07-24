@@ -37,8 +37,8 @@ const DashboardLayout = ({ children }: { children: ReactNode }) => {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
                 Vehicle Tracker
               </h2>
-              <p className="text-[12px] sm:text-[20px] text-gray-600 mt-1 flex items-center justify-center gap-2">
-                <Shield className="w-4 h-4" />
+              <p className="text-[13px] sm:text-[20px] text-gray-600 mt-1 flex items-center justify-center gap-1 sm:gap-2">
+                <Shield className="w-3 h-3 sm:w-4 sm:h-4" />
                 Real-time Vehicle Monitoring System
               </p>
             </motion.div>
