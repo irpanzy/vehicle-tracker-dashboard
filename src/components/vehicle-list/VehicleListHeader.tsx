@@ -9,20 +9,22 @@ const VehicleListHeader = () => {
       animate={{ opacity: 1, y: 0 }}
       className="space-y-4"
     >
-      <nav className="flex items-center space-x-2 text-sm text-gray-500">
+      <nav className="flex items-center space-x-2 text-sm text-[#1B3C53]">
         <Link
           to="/"
-          className="hover:text-gray-700 transition-colors font-medium"
+          className="hover:text-[#17465f] transition-colors font-medium flex items-center"
         >
-          <ChevronLeft className="inline-block w-4 h-4 mr-1" /> Back to Home
+          <ChevronLeft className="inline-block w-4 h-4 mr-1" />
+          Back to Home
         </Link>
       </nav>
+
       <div className="text-center">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-2">
-          Vehicle Fleet Dashboard
+          Vehicle List Dashboard
         </h2>
         <p className="text-gray-600">
-          Monitor and manage your vehicle fleet in real-time
+          Monitor and manage your vehicle list in real-time
         </p>
       </div>
     </motion.div>
