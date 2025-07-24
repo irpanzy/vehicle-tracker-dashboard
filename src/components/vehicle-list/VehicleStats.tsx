@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import { Car, Activity, TrendingDown, Users } from "lucide-react";
+import { CarFront, Gauge, ShieldAlert, ShieldCheck } from "lucide-react";
 
 type Vehicle = {
   id: number;
@@ -30,34 +30,34 @@ const VehicleStats = ({ vehicles }: Props) => {
     {
       title: "Total Vehicles",
       value: vehicles.length,
-      icon: Car,
+      icon: CarFront,
       color: "bg-blue-500",
       bgColor: "bg-blue-50",
-      textColor: "text-blue-700",
+      textColor: "text-[#1B3C53]",
     },
     {
       title: "Active Vehicles",
       value: activeVehicles,
-      icon: Activity,
+      icon: ShieldCheck,
       color: "bg-green-500",
       bgColor: "bg-green-50",
-      textColor: "text-green-700",
+      textColor: "text-[#437057]",
     },
     {
       title: "Inactive Vehicles",
       value: inactiveVehicles,
-      icon: TrendingDown,
+      icon: ShieldAlert,
       color: "bg-red-500",
       bgColor: "bg-red-50",
-      textColor: "text-red-700",
+      textColor: "text-[#722323]",
     },
     {
       title: "Avg Speed",
       value: `${avgSpeed} km/h`,
-      icon: Users,
+      icon: Gauge,
       color: "bg-purple-500",
       bgColor: "bg-purple-50",
-      textColor: "text-purple-700",
+      textColor: "text-[#BA487F]",
     },
   ];
 
