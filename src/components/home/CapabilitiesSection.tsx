@@ -53,7 +53,7 @@ const CapabilitiesSection = () => {
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
           Complete Solution
         </h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
           From basic tracking to advanced analytics, we've got everything
           covered
         </p>
