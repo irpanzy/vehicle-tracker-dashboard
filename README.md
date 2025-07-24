@@ -1,15 +1,16 @@
 # 🚗 Vehicle Tracker Dashboard
 
-A modern, responsive web application for real-time vehicle fleet monitoring and management. Built with React, TypeScript, and Tailwind CSS.
+A modern, responsive web application for real-time vehicle fleet monitoring and management.
+Built with React 19, powered by Vite 7 for fast development, styled using Tailwind CSS 4.1, and utilizes shadcn/ui for UI components. Animations are handled by Framer Motion, with global state managed via Zustand. All requests are made using Axios, and the project is written entirely in TypeScript 5.8.
 
-![React](https://img.shields.io/badge/React-18+-blue?style=for-the-badge&logo=react)
-![Vite](https://img.shields.io/badge/Vite-5+-blue?style=for-the-badge&logo=vite)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.8+-blue?style=for-the-badge&logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1+-blue?style=for-the-badge&logo=tailwindcss)
-![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-styled-blue?style=for-the-badge&logo=radixui)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-11+-blue?style=for-the-badge&logo=framer)
-![Zustand](https://img.shields.io/badge/Zustand-state--mgmt-blue?style=for-the-badge&logo=react)
-![Axios](https://img.shields.io/badge/Axios-HTTP-blue?style=for-the-badge&logo=axios)
+![React](https://img.shields.io/badge/React-19.1-blue?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-7.0-blue?style=for-the-badge&logo=vite)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1-blue?style=for-the-badge&logo=tailwindcss)
+![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-2.9-blue?style=for-the-badge&logo=radixui)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.2-blue?style=for-the-badge&logo=framer)
+![Zustand](https://img.shields.io/badge/🐻_Zustand-%205.0-blue?style=for-the-badge)
+![Axios](https://img.shields.io/badge/Axios-1.1-blue?style=for-the-badge&logo=axios)
 
 ## ✨ Features
 
@@ -102,31 +103,6 @@ src/
 └── index.css                   # Global styles
 ```
 
-## 🎨 Design System
-
-### Color Palette
-
-- **Primary**: Blue tones (`#3B82F6` to `#1E40AF`)
-- **Success**: Green tones (`#10B981` to `#059669`)
-- **Warning**: Yellow/Orange tones (`#F59E0B` to `#D97706`)
-- **Error**: Red tones (`#EF4444` to `#DC2626`)
-- **Neutral**: Gray scale (`#F8FAFC` to `#1E293B`)
-
-### Typography
-
-- **Font Family**: System fonts (San Francisco, Segoe UI, Roboto)
-- **Font Sizes**: Responsive scale from 12px to 48px
-- **Font Weights**: 400 (normal), 500 (medium), 600 (semibold), 700 (bold)
-
-### Components
-
-All UI components follow the Shadcn/ui design system with custom enhancements:
-
-- Consistent spacing and sizing
-- Smooth hover and focus states
-- Accessibility-compliant color contrasts
-- Mobile-first responsive design
-
 ## 🔧 Configuration
 
 ### Environment Variables
@@ -197,9 +173,9 @@ npm update           # Update dependencies
 
 The application is fully responsive with breakpoints:
 
-- **Mobile**: 320px - 640px
-- **Tablet**: 641px - 1024px
-- **Desktop**: 1025px+
+- **Mobile** : 320px - 640px
+- **Tablet** : 641px - 1024px
+- **Desktop** : 1025px+
 
 ## ♿ Accessibility
 
