@@ -24,7 +24,7 @@ const VehiclePagination = ({ page, maxPage, setPage }: Props) => {
         variant="outline"
         onClick={() => setPage(Math.max(page - 1, 1))}
         disabled={page === 1}
-        className="border-gray-200 text-white hover:text-gray-300 hover:bg-gray-50"
+        className="bg-[#2B3F4D] text-gray-300 hover:bg-[#1B3C53] hover:text-white disabled:opacity-50"
       >
         <ArrowLeft className="w-4 h-4 mr-2" />
         <span className="hidden md:inline">Previous</span>
@@ -38,12 +38,12 @@ const VehiclePagination = ({ page, maxPage, setPage }: Props) => {
             <Button
               key={pageNum}
               size="sm"
-              disabled={isActive}
               onClick={() => setPage(pageNum)}
+              disabled={isActive}
               className={
                 isActive
-                  ? "bg-blue-600 text-white cursor-default"
-                  : "border border-gray-200 text-white hover:text-gray-300 hover:bg-gray-50"
+                  ? "bg-[#1B3C53] text-white cursor-default"
+                  : "bg-[#2B3F4D] text-gray-300 hover:bg-[#1B3C53] hover:text-white border border-white/10"
               }
             >
               {pageNum}
@@ -55,12 +55,12 @@ const VehiclePagination = ({ page, maxPage, setPage }: Props) => {
             <span className="text-gray-400">...</span>
             <Button
               size="sm"
-              disabled={page === maxPage}
               onClick={() => setPage(maxPage)}
+              disabled={page === maxPage}
               className={
                 page === maxPage
-                  ? "bg-blue-600 text-white cursor-default"
-                  : "border border-gray-200 text-white hover:text-gray-300 hover:bg-gray-50"
+                  ? "bg-[#1B3C53] text-white cursor-default"
+                  : "bg-[#2B3F4D] text-gray-300 hover:bg-[#1B3C53] hover:text-white border border-white/10"
               }
             >
               {maxPage}
@@ -73,7 +73,7 @@ const VehiclePagination = ({ page, maxPage, setPage }: Props) => {
         variant="outline"
         onClick={() => setPage(Math.min(page + 1, maxPage))}
         disabled={page === maxPage}
-        className="border-gray-200 text-white hover:text-gray-300 hover:bg-gray-50"
+        className="bg-[#2B3F4D] text-gray-300 hover:bg-[#1B3C53] hover:text-white disabled:opacity-50"
       >
         <span className="hidden md:inline">Next</span>
         <ArrowRight className="w-4 h-4 ml-2" />
