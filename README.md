@@ -1,6 +1,6 @@
 # 🚗 Vehicle Tracker Dashboard
 
-A modern, responsive web application for real-time vehicle fleet monitoring and management. Built with React 19, powered by Vite 7 for fast development, styled using Tailwind CSS 4.1, and utilizes shadcn/ui for UI components. Routing is handled with React Router 7.7.0. Animations are powered by Framer Motion, global state managed via Zustand. All requests are made using Axios, and the project is written entirely in TypeScript 5.8.
+A modern, responsive web application for real-time vehicle list monitoring and management. Built with React 19, powered by Vite 7 for fast development, styled using Tailwind CSS 4.1, and utilizes shadcn/ui for UI components. Routing is handled with React Router 7.7.0. Animations are powered by Framer Motion, global state managed via Zustand. All requests are made using Axios, and the project is written entirely in TypeScript 5.8.
 
 ![React](https://img.shields.io/badge/React-19.1-blue?style=for-the-badge&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-7.0-blue?style=for-the-badge&logo=vite)
@@ -17,7 +17,7 @@ A modern, responsive web application for real-time vehicle fleet monitoring and 
 ### 🎯 Core Functionality
 
 - **Real-time Vehicle Monitoring** - Track vehicle status, speed, and location
-- **Fleet Overview Dashboard** - Comprehensive statistics and metrics
+- **List Overview Dashboard** - Comprehensive statistics and metrics
 - **Individual Vehicle Details** - Detailed information for each vehicle
 - **Advanced Search & Filtering** - Find vehicles by name or status
 - **Responsive Design** - Optimized for desktop, tablet, and mobile
@@ -73,35 +73,6 @@ A modern, responsive web application for real-time vehicle fleet monitoring and 
 
 4. **Open your browser**
    Navigate to `http://localhost:5173`
-
-## 📦 Project Structure
-
-```
-src/
-├── api/                        # API integration
-│   └── vehicleApi.ts           # Vehicle API calls
-├── components/                 # Reusable components
-│   ├── ui/                     # Shadcn/ui components
-│   │   ├── badge.tsx
-│   │   ├── button.tsx
-│   │   ├── card.tsx
-│   │   ├── input.tsx
-│   │   ├── separator.tsx
-│   │   └── skeleton.tsx
-│   ├── layout/                 # Layout components
-│   │   └── DashboardLayout.tsx
-│   └── VehicleCard.tsx         # Vehicle card component
-├── lib/                        # Utilities
-│   └── utils.ts                # Utility functions
-├── pages/                      # Page components
-│   ├── VehicleList.tsx         # Main dashboard
-│   └── VehicleDetail.tsx       # Vehicle details page
-├── store/                      # State management
-│   └── vehicleStore.ts         # Zustand store
-├── App.tsx                     # Main app component
-├── main.tsx                    # App entry point
-└── index.css                   # Global styles
-```
 
 ## 🔧 Configuration
 

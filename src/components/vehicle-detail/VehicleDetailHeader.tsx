@@ -15,10 +15,10 @@ const VehicleDetailHeader = ({ vehicle }: VehicleDetailHeaderProps) => {
   return (
     <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
       <div className="space-y-4">
-        <nav className="flex items-center space-x-2 text-sm text-gray-500">
+        <nav className="flex items-center space-x-2 text-sm text-[#1B3C53]">
           <Link
             to="/vehicles"
-            className="hover:text-gray-700 transition-colors font-medium"
+            className="hover:text-[#17465f] transition-colors font-medium flex items-center"
           >
             <ChevronLeft className="inline-block w-4 h-4 mr-1" />
             Back to Vehicles List

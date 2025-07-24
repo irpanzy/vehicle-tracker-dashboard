@@ -56,7 +56,7 @@ const FeaturesSection = () => {
           Powerful Features
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Everything you need to manage your vehicle fleet efficiently and
+          Everything you need to manage your vehicle list efficiently and
           effectively
         </p>
       </div>

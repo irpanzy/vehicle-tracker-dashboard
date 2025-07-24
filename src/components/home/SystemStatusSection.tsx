@@ -15,7 +15,7 @@ const SystemStatusSection = () => {
             System Status
           </h2>
           <p className="text-gray-600">
-            All systems operational and ready to serve your fleet
+            All systems operational and ready to serve your vehicle tracking needs
           </p>
         </div>
 

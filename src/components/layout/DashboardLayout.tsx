@@ -23,8 +23,7 @@ const DashboardLayout = ({ children }: { children: ReactNode }) => {
               transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
               className="relative"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full blur opacity-30 animate-pulse"></div>
-              <div className="relative bg-gradient-to-r from-blue-600 to-indigo-700 p-4 rounded-full shadow-lg">
+              <div className="relative bg-[#1B3C53] p-4 rounded-full shadow-md hover:shadow-lg transition duration-300">
                 <Car className="w-8 h-8 text-white" />
               </div>
             </motion.div>
@@ -66,7 +65,8 @@ const DashboardLayout = ({ children }: { children: ReactNode }) => {
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex items-center justify-center gap-2 text-gray-600">
             <span className="text-sm">
-              © {new Date().getFullYear()} Vehicle Tracker App. All rights reserved.
+              © {new Date().getFullYear()} Vehicle Tracker App. All rights
+              reserved.
             </span>
           </div>
         </div>

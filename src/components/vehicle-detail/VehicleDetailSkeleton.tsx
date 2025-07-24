@@ -4,15 +4,11 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 const VehicleDetailSkeleton = () => {
   return (
     <div className="space-y-6 animate-pulse">
-      {/* Header */}
       <div className="space-y-2">
         <Skeleton className="h-6 w-40" />
         <Skeleton className="h-4 w-64" />
       </div>
-
-      {/* Main Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Vehicle Metrics (2/3) */}
         <div className="lg:col-span-2 space-y-6">
           <Card>
             <CardHeader>
@@ -28,8 +24,6 @@ const VehicleDetailSkeleton = () => {
               ))}
             </CardContent>
           </Card>
-
-          {/* Location Details */}
           <Card>
             <CardHeader>
               <Skeleton className="h-5 w-40" />
@@ -41,8 +35,6 @@ const VehicleDetailSkeleton = () => {
             </CardContent>
           </Card>
         </div>
-
-        {/* Quick Status + Fuel Bar */}
         <div className="space-y-6">
           <Card>
             <CardHeader>
@@ -61,8 +53,6 @@ const VehicleDetailSkeleton = () => {
               </div>
             </CardContent>
           </Card>
-
-          {/* Fuel Level Bar */}
           <Card>
             <CardHeader>
               <Skeleton className="h-5 w-32" />
