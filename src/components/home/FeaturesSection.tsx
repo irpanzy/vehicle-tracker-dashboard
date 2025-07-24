@@ -78,7 +78,7 @@ const FeaturesSection = () => {
                 >
                   <feature.icon className={`w-8 h-8 ${feature.textColor}`} />
                 </div>
-                <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-blue-700 transition-colors">
+                <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-[#3674B5] transition-colors">
                   {feature.title}
                 </CardTitle>
               </CardHeader>
