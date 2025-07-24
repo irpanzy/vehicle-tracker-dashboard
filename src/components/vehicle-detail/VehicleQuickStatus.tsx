@@ -12,7 +12,6 @@ type Props = {
 const VehicleQuickStatus = ({ vehicle }: Props) => {
   const isMoving = vehicle.speed > 0;
   const fuelLevel = vehicle.fuel_level;
-  const lastUpdate = new Date(vehicle.timestamp);
 
   return (
     <Card className="border-0 shadow-lg">
@@ -42,21 +41,11 @@ const VehicleQuickStatus = ({ vehicle }: Props) => {
             {fuelLevel > 20 ? "Good" : "Low"}
           </Badge>
         </div>
-
         <div className="flex items-center justify-between">
           <span className="text-gray-600">Connection</span>
           <Badge variant="default" className="bg-green-600">
             Online
           </Badge>
-        </div>
-
-        <div className="pt-4 border-t">
-          <div className="text-center">
-            <p className="text-sm text-gray-600 mb-2">Last Updated</p>
-            <p className="font-semibold text-gray-900">
-              {lastUpdate.toLocaleString()}
-            </p>
-          </div>
         </div>
       </CardContent>
     </Card>
