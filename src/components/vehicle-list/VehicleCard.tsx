@@ -132,7 +132,7 @@ const VehicleCard = ({ id, name, status, speed, updated_at }: Props) => {
             <Button
               className={cn(
                 "w-full group relative overflow-hidden",
-                "bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800",
+                "bg-[#1B3C53] hover:bg-[#17465f]",
                 "text-white font-semibold shadow-lg hover:shadow-xl",
                 "transform transition-all duration-200 hover:scale-[1.02]"
               )}
