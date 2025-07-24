@@ -35,11 +35,11 @@ const VehicleFilters = ({
               setQuery(e.target.value);
               setPage(1);
             }}
-            className="pl-10 w-64 bg-white border-gray-200 focus:border-blue-500 focus:ring-blue-500"
+            className="pl-10 w-64 bg-white border-gray-200 focus:border-[#1B3C53] focus:ring-[#1B3C53]"
           />
         </div>
         <div className="flex items-center gap-2">
-          <Filter className="w-4 h-4 text-gray-500" />
+          <Filter className="w-4 h-4 text-[#1B3C53]" />
           <div className="flex gap-2">
             {["ALL", "ACTIVE", "INACTIVE"].map((status) => (
               <Badge
@@ -47,8 +47,8 @@ const VehicleFilters = ({
                 variant={statusFilter === status ? "default" : "outline"}
                 className={`cursor-pointer transition-all ${
                   statusFilter === status
-                    ? "bg-blue-600 text-white hover:bg-blue-700"
-                    : "hover:bg-gray-100"
+                    ? "bg-[#1B3C53] text-white hover:bg-[#17465f]"
+                    : "border border-gray-300 text-gray-700 hover:bg-gray-100"
                 }`}
                 onClick={() => {
                   setStatusFilter(status as typeof statusFilter);
