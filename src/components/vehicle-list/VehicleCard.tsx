@@ -66,7 +66,7 @@ const VehicleCard = ({ id, name, status, speed, updated_at }: Props) => {
         <CardContent className="p-6">
           <div className="flex items-start justify-between mb-4">
             <div className="flex-1">
-              <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-700 transition-colors">
+              <h3 className="text-lg font-bold text-gray-900 group-hover:text-[#3674B5] transition-colors">
                 {name}
               </h3>
               <p className="text-sm text-gray-500 mt-1">Vehicle ID: #{id}</p>
