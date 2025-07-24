@@ -62,7 +62,7 @@ const VehicleMetrics = ({ vehicle }: Props) => {
       icon: BarChart3,
       color: "text-purple-600",
       bgColor: "bg-purple-50 border-purple-200",
-      status: "Total Distance",
+      status: "Mileage",
     },
     {
       title: "Fuel Level",

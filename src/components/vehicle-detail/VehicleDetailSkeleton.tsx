@@ -1,7 +1,7 @@
 import { Skeleton } from "@/components/ui/skeleton";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
-const VehicleSkeleton = () => {
+const VehicleDetailSkeleton = () => {
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-4">
@@ -36,4 +36,4 @@ const VehicleSkeleton = () => {
   );
 };
 
-export default VehicleSkeleton;
+export default VehicleDetailSkeleton;

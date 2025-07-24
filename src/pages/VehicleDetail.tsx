@@ -3,11 +3,11 @@ import { useParams } from "react-router-dom";
 import { fetchVehicleDetail } from "@/api/vehicleApi";
 import { useVehicleStore } from "@/store/vehicleStore";
 import DashboardLayout from "@/components/layout/DashboardLayout";
-import VehicleHeader from "@/components/vehicle-detail/VehicleHeader";
+import VehicleHeader from "@/components/vehicle-detail/VehicleDetailHeader";
 import VehicleMetrics from "@/components/vehicle-detail/VehicleMetrics";
 import VehicleLocation from "@/components/vehicle-detail/VehicleLocation";
 import VehicleSidebar from "@/components/vehicle-detail/VehicleSidebar";
-import VehicleSkeleton from "@/components/vehicle-detail/VehicleSkeleton";
+import VehicleSkeleton from "@/components/vehicle-detail/VehicleDetailSkeleton";
 import VehicleErrorState from "@/components/vehicle-detail/VehicleErrorState";
 import VehicleNotFound from "@/components/vehicle-detail/VehicleNotFound";
 
