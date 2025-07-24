@@ -1,4 +1,4 @@
-import { Car, ChevronLeft } from "lucide-react";
+import { CarFront, ChevronLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 
@@ -28,7 +28,7 @@ const VehicleDetailHeader = ({ vehicle }: VehicleDetailHeaderProps) => {
         <div className="space-y-2">
           <h1 className="text-lg sm:text-2xl md:text-3xl font-bold text-gray-900 flex items-center gap-3">
             <div className="p-2 bg-blue-50 rounded-full">
-              <Car className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
+              <CarFront className="w-5 h-5 sm:w-6 sm:h-6 text-[#1B3C53]" />
             </div>
             <span className="text-base sm:text-xl md:text-2xl">
               Vehicle #{vehicle.vehicleId}
