@@ -1,6 +1,13 @@
 # 🚗 Vehicle Tracker Dashboard
 
-A modern, responsive web application for real-time vehicle list monitoring and management. Built with React 19, powered by Vite 7 for fast development, styled using Tailwind CSS 4.1, and utilizes shadcn/ui for UI components. Routing is handled with React Router 7.7.0. Animations are powered by Framer Motion, global state managed via Zustand. All requests are made using Axios, and the project is written entirely in TypeScript 5.8.
+A modern, responsive web application for real-time vehicle monitoring and management. Built with **React 19**, powered by **Vite 7** for fast development, styled with **Tailwind CSS 4.1**, and utilizes **shadcn/ui** for UI components. Routing is handled by **React Router 7.7.0**, animations are powered by **Framer Motion**, and global state is managed via **Zustand**. All requests are made using **Axios**, and the project is written entirely in **TypeScript 5.8**.
+
+🔗 **Live Demo**: [vehicle-tracker-dashboard.vercel.app](https://vehicle-tracker-dashboard.vercel.app)  
+📦 **GitHub Repository**: [github.com/irpanzy/vehicle-tracker-dashboard](https://github.com/irpanzy/vehicle-tracker-dashboard)
+
+---
+
+## 🧩 Tech Stack
 
 ![React](https://img.shields.io/badge/React-19.1-blue?style=for-the-badge&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-7.0-blue?style=for-the-badge&logo=vite)
@@ -11,6 +18,8 @@ A modern, responsive web application for real-time vehicle list monitoring and m
 ![React Router](https://img.shields.io/badge/React_Router-7.7-blue?style=for-the-badge&logo=react-router&logoColor=white)
 ![Zustand](https://img.shields.io/badge/🐻_Zustand-5.0-blue?style=for-the-badge)
 ![Axios](https://img.shields.io/badge/Axios-1.1-blue?style=for-the-badge&logo=axios)
+
+---
 
 ## ✨ Features
 
@@ -51,7 +60,7 @@ A modern, responsive web application for real-time vehicle list monitoring and m
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/irpanzy/vehicle-tracker-dashboard.git
    cd vehicle-tracker-dashboard
    ```
 
@@ -63,7 +72,14 @@ A modern, responsive web application for real-time vehicle list monitoring and m
    yarn install
    ```
 
-3. **Start the development server**
+3. **Environment Variables**
+   Create a `.env` file in the root directory:
+
+   ```env
+   VITE_API_BASE_URL=https://vehicle-tracker-one-alpha.vercel.app
+   ```
+
+4. **Start the development server**
 
    ```bash
    npm run dev
@@ -71,18 +87,8 @@ A modern, responsive web application for real-time vehicle list monitoring and m
    yarn dev
    ```
 
-4. **Open your browser**
+5. **Open your browser**
    Navigate to `http://localhost:5173`
-
-## 🔧 Configuration
-
-### Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-VITE_API_BASE_URL=https://vehicle-tracker-one-alpha.vercel.app
-```
 
 ### API Integration
 
@@ -115,23 +121,6 @@ The application connects to a REST API with the following endpoints:
 - **Last Update Times**: Human-readable timestamps
 - **Interactive Elements**: Hover effects and smooth transitions
 
-## 🛠️ Available Scripts
-
-```bash
-# Development
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run preview      # Preview production build
-
-# Code Quality
-npm run lint         # Run ESLint
-npm run type-check   # Run TypeScript compiler check
-
-# Dependencies
-npm install          # Install dependencies
-npm update           # Update dependencies
-```
-
 ## 🎯 Performance Optimizations
 
 - **Code Splitting**: Automatic route-based code splitting
@@ -139,32 +128,6 @@ npm update           # Update dependencies
 - **Optimized Images**: Responsive image loading
 - **Minimal Bundle Size**: Tree-shaking and dead code elimination
 - **Caching**: Efficient API response caching
-
-## 📱 Responsive Design
-
-The application is fully responsive with breakpoints:
-
-- **Mobile** : 320px - 640px
-- **Tablet** : 641px - 1024px
-- **Desktop** : 1025px+
-
-## ♿ Accessibility
-
-- **WCAG 2.1 AA Compliant**: Meets accessibility standards
-- **Keyboard Navigation**: Full keyboard support
-- **Screen Reader Support**: ARIA labels and semantic HTML
-- **Color Contrast**: Sufficient contrast ratios
-- **Focus Management**: Clear focus indicators
-
-## 🔮 Future Enhancements
-
-- [ ] **Real-time Updates**: WebSocket integration for live data
-- [ ] **Map Integration**: Interactive maps with vehicle locations
-- [ ] **Historical Data**: Charts and graphs for vehicle analytics
-- [ ] **Notifications**: Push notifications for alerts
-- [ ] **Export Functionality**: PDF and Excel exports
-- [ ] **Dark Mode**: Theme switching capability
-- [ ] **Mobile App**: React Native companion app
 
 ## 🤝 Contributing
 
@@ -190,5 +153,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For support, please open an issue in the GitHub repository or contact the development team.
 
 ---
-
-**Built with ❤️ using React, TypeScript, and modern web technologies**
