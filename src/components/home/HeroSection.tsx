@@ -49,7 +49,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10"
+          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <Link to="/vehicles" className="w-fit">
             <Button className="bg-[#1B3C53] hover:bg-[#17465f] text-white text-base font-semibold shadow-md hover:shadow-lg transition-all duration-200 ease-in-out flex items-center gap-2 w-fit">
